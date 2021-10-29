@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <title> Imersão Dev Alura - Desafio O Mentalista</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="page-title">
+      O Mentalista</h1>
+    <p class="page-subtitle">
+      Será que você consegue adivinhar o número secreto?
+    </p>
+
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-mentalista.svg" class="page-logo" alt="">
+
+    <div id="main-box" class="main-box">
+
+      <div class="aba-pontos">pontos: <span id="pontos-numero"></span></div>
+
+      <h2 class="titulo-jogo">Selecione a dificuldade</h2>
+
+      <section id="opDificuldade">
+
+        <div class="opcao">
+          <label class="dificuldade">Fácil (1-10)</label>
+          <input name="dificuldade" type="radio" value="facil" onclick="escolherDificuldade()">
+        </div>
+
+        <div class="opcao">
+          <label class="dificuldade">Médio(1-20)</label>
+          <input name="dificuldade" type="radio" value="medio" onclick="escolherDificuldade()">
+        </div>
+
+        <div class="opcao">
+          <label class="dificuldade">Difícil (1-40)</label>
+          <input name="dificuldade" type="radio" value="dificil" onclick="escolherDificuldade()">
+        </div>
+
+      </section>
+
+      <section class="jogo">
+
+        <div class="box valor">
+          <label for="">Digite um número</label>
+          <input id="inputValor" type="number">
+          <button onclick="chutar()">Chutar</button>
+        </div>
+
+        <div id="campoTentativas" class="box tentativas">
+          <label class="texto-chances">Chances restantes</label>
+          <p class="numero-tentativas"></p>
+        </div>
+
+      </section>
+
+      <p id="resultado"></p>
+      <button id="reset" class="reset" onclick="reset()">Recomeçar</button>
+
+    </div>
+
+  </div>
+
+  <script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>

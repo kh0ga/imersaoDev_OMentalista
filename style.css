@@ -1,0 +1,166 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: url("img/bg-img.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  background-size: 20vh;
+  height: 90vh;
+  padding: 20px;
+  text-align: center;
+}
+
+.page-title {
+  color: #fff;
+  margin: 60px 0 10px 0;
+}
+
+.page-subtitle {
+  color: #fff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+  margin-bottom: 40px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.main-box {
+  background-color: #fff;
+  color: #000;
+  width: 550px;
+  height: 245px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 5px;
+  border-bottom: 50px solid #3a94cf;
+}
+
+.aba-pontos {
+  background-color: #fff;
+  border-radius: 20px;
+  width: 130px;
+  height: 70px;
+  margin: -35px 425px;
+  padding: 8px 0;
+  box-sizing: border-box;
+  text-align: center;
+  color: #6b6b6b;
+}
+
+#pontos-numero {
+  font-weight: bold;
+  color: #3a94cf;
+}
+
+.reset {
+  background-color: #faa508;
+  padding: 10px;
+  margin: 40px auto;
+  display: none;
+  font-weight: bold;
+}
+
+.titulo-jogo {
+  color: #3a94cf;
+}
+
+.jogo {
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+}
+
+#campoTentativas {
+  font-size: 12px;
+  width: 140px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.numero-tentativas {
+  font-size: 50px;
+  margin: 0;
+  line-height: 1em;
+  color: #3a94cf;
+}
+
+button {
+  font-size: 15px;
+  width: 120px;
+  padding: 5px;
+  border-radius: 8px;
+  background-color: #3a94cf;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+input {
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 1px solid #9e9e9e;
+  padding: 5px;
+  color: #6b6b6b;
+  text-align: center;
+  outline: none;
+  font-weight: bold;
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+#opDificuldade {
+  width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+#resultado {
+  color: #fff;
+  margin-top: 30px;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+.box {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: 5px;
+  height: 80px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.valor {
+  width: 350px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+label {
+  color: #6b6b6b;
+  display: block;
+  font-weight: bold;
+}
